@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D3E79470D2B089F5C58ACD /* Pods_badminton_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E447672D8DB3342E1ADB4C /* Pods_badminton_ios.framework */; };
 		111AD9B11EE5B791003BAB60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111AD9B01EE5B791003BAB60 /* AppDelegate.swift */; };
 		111AD9B31EE5B791003BAB60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111AD9B21EE5B791003BAB60 /* ViewController.swift */; };
 		111AD9B61EE5B791003BAB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111AD9B41EE5B791003BAB60 /* Main.storyboard */; };
@@ -22,6 +23,9 @@
 		111AD9B71EE5B791003BAB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111AD9BA1EE5B791003BAB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111AD9BC1EE5B791003BAB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1C48187A19F0AF908F4AA8 /* Pods-badminton-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-badminton-ios/Pods-badminton-ios.release.xcconfig"; sourceTree = "<group>"; };
+		8CC290C8FB6986EBEDCC8948 /* Pods-badminton-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badminton-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-badminton-ios/Pods-badminton-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E447672D8DB3342E1ADB4C /* Pods_badminton_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_badminton_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D3E79470D2B089F5C58ACD /* Pods_badminton_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				111AD9AF1EE5B791003BAB60 /* badminton-ios */,
 				111AD9AE1EE5B791003BAB60 /* Products */,
+				146AB6CCA92FF630C7665890 /* Pods */,
+				757EA0B70A218E5804D1D823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "badminton-ios";
 			sourceTree = "<group>";
 		};
+		146AB6CCA92FF630C7665890 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CC290C8FB6986EBEDCC8948 /* Pods-badminton-ios.debug.xcconfig */,
+				4E1C48187A19F0AF908F4AA8 /* Pods-badminton-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		757EA0B70A218E5804D1D823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E447672D8DB3342E1ADB4C /* Pods_badminton_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 111AD9BF1EE5B791003BAB60 /* Build configuration list for PBXNativeTarget "badminton-ios" */;
 			buildPhases = (
+				A129EA811C3818D6A990AF97 /* [CP] Check Pods Manifest.lock */,
 				111AD9A91EE5B791003BAB60 /* Sources */,
 				111AD9AA1EE5B791003BAB60 /* Frameworks */,
 				111AD9AB1EE5B791003BAB60 /* Resources */,
+				63D3290BEA303C5018947E57 /* [CP] Embed Pods Frameworks */,
+				D3C01FCAA5E83287C76F2DB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63D3290BEA303C5018947E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-badminton-ios/Pods-badminton-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A129EA811C3818D6A990AF97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C01FCAA5E83287C76F2DB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-badminton-ios/Pods-badminton-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		111AD9A91EE5B791003BAB60 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		111AD9C01EE5B791003BAB60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC290C8FB6986EBEDCC8948 /* Pods-badminton-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N39C8AV5K6;
@@ -272,6 +348,7 @@
 		};
 		111AD9C11EE5B791003BAB60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E1C48187A19F0AF908F4AA8 /* Pods-badminton-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N39C8AV5K6;
