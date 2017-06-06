@@ -10,7 +10,7 @@ import Foundation
 
 // Struct representing a player
 
-public struct Player {
+public struct Player: Equatable {
     
     public let firstName: String
     public let lastName: String
@@ -19,5 +19,10 @@ public struct Player {
         self.firstName = firstName
         self.lastName = lastName
     }
+    
+    static public func == (lhs: Player, rhs: Player) -> Bool {
+        return lhs.firstName == rhs.firstName && lhs.lastName == rhs.lastName
+    }
+
     
 }

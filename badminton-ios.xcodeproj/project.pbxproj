@@ -12,6 +12,7 @@
 		111023041EE6056100BC32C0 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111023031EE6056100BC32C0 /* Match.swift */; };
 		111023071EE608BD00BC32C0 /* MockPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111023061EE608BD00BC32C0 /* MockPlayers.swift */; };
 		111023091EE6098600BC32C0 /* MockMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111023081EE6098600BC32C0 /* MockMatches.swift */; };
+		1110230E1EE70D6700BC32C0 /* MockDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110230D1EE70D6700BC32C0 /* MockDataHandler.swift */; };
 		111AD9B11EE5B791003BAB60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111AD9B01EE5B791003BAB60 /* AppDelegate.swift */; };
 		111AD9B31EE5B791003BAB60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111AD9B21EE5B791003BAB60 /* ViewController.swift */; };
 		111AD9B61EE5B791003BAB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111AD9B41EE5B791003BAB60 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		111023031EE6056100BC32C0 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		111023061EE608BD00BC32C0 /* MockPlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockPlayers.swift; sourceTree = "<group>"; };
 		111023081EE6098600BC32C0 /* MockMatches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMatches.swift; sourceTree = "<group>"; };
+		1110230D1EE70D6700BC32C0 /* MockDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataHandler.swift; sourceTree = "<group>"; };
 		111AD9AD1EE5B791003BAB60 /* badminton-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "badminton-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		111AD9B01EE5B791003BAB60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		111AD9B21EE5B791003BAB60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				111023061EE608BD00BC32C0 /* MockPlayers.swift */,
 				111023081EE6098600BC32C0 /* MockMatches.swift */,
+				1110230D1EE70D6700BC32C0 /* MockDataHandler.swift */,
 			);
 			name = mockdata;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				111023001EE5C72C00BC32C0 /* Player.swift in Sources */,
 				111023091EE6098600BC32C0 /* MockMatches.swift in Sources */,
 				111AD9B11EE5B791003BAB60 /* AppDelegate.swift in Sources */,
+				1110230E1EE70D6700BC32C0 /* MockDataHandler.swift in Sources */,
 				111023041EE6056100BC32C0 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
