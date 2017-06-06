@@ -10,7 +10,7 @@ import Foundation
 
 public class MockDataHandler {
     
-    public func getPlayerMatches (player: Player) -> [Match] {
+    public static func getPlayerMatches (player: Player) -> [Match] {
         
         var playerMatches: [Match] = [Match]()
         
